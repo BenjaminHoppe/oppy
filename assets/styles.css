@@ -1,5 +1,5 @@
 body {
-  background-color: #1D1E1F;
+  background-color: #0F0101;
   color: white;
 }
 
@@ -17,7 +17,7 @@ body {
   width: 100%;
   height: 100%;
   z-index: 100;
-  background:linear-gradient(transparent 75%, #1D1E1F 95% );
+  background:linear-gradient(transparent 75%, #0F0101 95% );
 }
 
 .heroImage {
@@ -36,6 +36,13 @@ body {
 .mission > h1 {
   text-align: center;
   margin-bottom: 40px;
+  font-size: 40px;
+}
+
+.left > p, .right > p {
+  font-size: 20px;
+  line-height: 1.5em;
+  letter-spacing: 3px;
 }
 
 .grid {
