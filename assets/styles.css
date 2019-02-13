@@ -11,6 +11,10 @@ body {
   overflow: hidden;
 }
 
+.hero > p {
+
+}
+
 .heroGradient {
   position: absolute;
   top: 0;
@@ -19,6 +23,12 @@ body {
   height: 100%;
   z-index: 100;
   background:linear-gradient(transparent 75%, #0F0101 95% );
+}
+
+.heroGradient > h1 {
+  text-align: center;
+  padding-top: 25vh;
+  font-size: 50px;
 }
 
 .heroImage {
@@ -53,16 +63,22 @@ body {
 
 .left {
   grid-column-start: 1;
-  margin-right: 20px;
+  margin-right: 30px;
 }
 
 .right {
   grid-column-start: 2;
-  margin-left: 20px;
+  margin-left: 30px;
 }
 
 .timeline {
 
+}
+
+.timeline > h2 {
+  font-size: 25px;
+  padding-bottom: 40px;
+  text-align: center;
 }
 
 .timelineGrid {
