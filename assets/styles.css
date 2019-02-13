@@ -33,6 +33,37 @@ body {
 
 }
 
+.timelineGrid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.timelineGridLeft {
+  position: relative;
+  grid-column-start: 1;
+  height: 200px;
+  width: 100%;
+}
+
+.timelineGridRight {
+  position: relative;
+
+  grid-column-start: 2;
+  height: 200px;
+  width: 100%;
+  border-left: 5px solid red;
+}
+
+.timelineDate {
+  border-bottom: 2px solid red;
+}
+
+.timelineContentLeft {
+  position: absolute;
+  right: 50px;
+  width: 100px
+}
+
 .team {
 
 }
