@@ -91,6 +91,7 @@ body {
   grid-column-start: 1;
   height: 800px;
   width: 100%;
+
 }
 
 .timelineGridRight {
@@ -99,17 +100,21 @@ body {
   height: 600px;
   width: 100%;
   border-left: 5px solid rgb(214, 130, 52);
+
 }
 
 .timelineDateLeft {
   border-bottom: 2px solid rgb(214, 130, 52);
   text-align: left;
+  color: grey;
 
 }
 
 .timelineDateRight {
   border-bottom: 2px solid rgb(214, 130, 52);
   text-align: right;
+  color: grey;
+
 }
 
 .timelineContentLeft {
@@ -121,7 +126,7 @@ body {
 .timelineDotLeft {
   position: absolute;
   right: -12px;
-  bottom: -11px;
+  top: 8px;
   width: 15px;
   height: 15px;
   background-color: #0f0101;
@@ -139,7 +144,7 @@ body {
 .timelineDotRight {
   position: absolute;
   left: -12px;
-  bottom: -11px;
+  top: 8px;
   width: 15px;
   height: 15px;
   background-color: #0f0101;
@@ -153,6 +158,11 @@ body {
 .timelineItem3 {  position: absolute;  top: 200px; right: 0px; width: 150px}
 .timelineItem4 {  position: absolute;  top: 300px; left: 0px; width: 150px}
 .timelineItem5 {  position: absolute;  top: 400px; right: 0px; width: 150px}
+
+.timelineTextRight {
+position: absolute;
+left: 40px;
+}
 
 .team {
 
