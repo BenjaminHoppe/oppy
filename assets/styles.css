@@ -6,7 +6,7 @@ body {
 .hero {
   position: relative;
   width: 100vw;
-  height: 500px;
+  height: 600px;
   overflow: hidden;
 }
 
@@ -27,6 +27,30 @@ body {
   top: 0;
   left: 0;
   position: absolute;
+}
+
+.mission {
+  margin: 40px 200px;
+}
+
+.mission > h1 {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.left {
+  grid-column-start: 1;
+  margin-right: 20px;
+}
+
+.right {
+  grid-column-start: 2;
+  margin-left: 20px;
 }
 
 .timeline {
