@@ -107,14 +107,12 @@ body {
   border-bottom: 2px solid rgb(214, 130, 52);
   text-align: left;
   color: grey;
-
 }
 
 .timelineDateRight {
   border-bottom: 2px solid rgb(214, 130, 52);
   text-align: right;
   color: grey;
-
 }
 
 .timelineContentLeft {
@@ -138,7 +136,7 @@ body {
 .timelineContentRight {
   position: absolute;
   left: 0px;
-  width: 150px
+  width: 150px;
 }
 
 .timelineDotRight {
@@ -162,6 +160,8 @@ body {
 .timelineTextRight {
 position: absolute;
 left: 40px;
+text-align: right;
+
 }
 
 .team {
