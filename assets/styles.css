@@ -32,7 +32,7 @@ body {
   width: 100%;
   height: 100%;
   z-index: 100;
-  background:linear-gradient(transparent 75%, #0F0101 95% );
+  background: linear-gradient(transparent 75%, #0F0101 95% );
 }
 
 
@@ -265,9 +265,19 @@ p > a:hover {
 /* FOOTER */
 
 footer {
-
   position: relative;
 }
+
+.footerGradient {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 100;
+  background: linear-gradient(#0F0101 15%, transparent 45% );
+}
+
 
 /* BREAKPOINT */
 
