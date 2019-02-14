@@ -28,6 +28,16 @@ body {
   background:linear-gradient(transparent 75%, #0F0101 95% );
 }
 
+.footerGradient {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 100;
+  background:linear-gradient(transparent 75%, red 95% );
+}
+
 .heroGradient > h1 {
   padding-top: 45vh;
   font-size: 5em;
@@ -224,7 +234,7 @@ p > a:hover {
 /* PEOPLE */
 
 .team {
-
+  padding-bottom: 125px;
 }
 
 .team > h2 {
@@ -247,21 +257,19 @@ p > a:hover {
   display: flex;
   justify-content: center;
   padding-top: 40px;
-
 }
 
 .logos > img {
   height: 150px;
 }
-/* LINKS? */
-.resources {
-
-}
+/* TWITTER */
 
 /* FOOTER */
 
 footer {
-
+  height: 500px;
+  background-color: #1A1A1A;
+  position: relative;
 }
 
 /* BREAKPOINT */
