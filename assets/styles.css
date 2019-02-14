@@ -4,6 +4,14 @@ body {
   width: 100vw;
 }
 
+@font-face {
+    font-family: 'dual300';
+    src: url('dual-300-webfont.woff2') format('woff2'),
+         url('dual-300-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
 .hero {
   position: relative;
   width: 100vw;
@@ -29,6 +37,8 @@ body {
   text-align: center;
   padding-top: 25vh;
   font-size: 50px;
+  font-family: 'dual300';
+  font
 }
 
 .heroImage {
