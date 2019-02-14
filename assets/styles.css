@@ -105,11 +105,10 @@ body {
 .timelineGridLeft {
   position: relative;
   grid-column-start: 1;
-  height: 975px;
   width: 100%;
 }
 
-.timelineDotLeft {
+/* .timelineDotLeft {
   position: absolute;
   right: -12px;
   top: 20px;
@@ -119,13 +118,13 @@ body {
   border: 2px solid #E7671E;
   z-index: 100;
   border-radius: 50%;
-}
+} */
 
 .timelineDateLeft {
-  border-bottom: 2px solid #E7671E;
+  border-bottom: 3px solid #E7671E;
   text-align: left;
   color: grey;
-  font-size: 1.5em;
+  font-size: 1.3em;
   font-family: 'Dual300';
   letter-spacing: 3px;
   padding-bottom: 5px;
@@ -134,8 +133,10 @@ body {
 .timelineTextLeft {
   position: absolute;
   font-family: 'Dual300';
-  font-size: 1.5em;
+  font-size: 1.1em;
   padding-top: 5px;
+  letter-spacing: 3px;
+  line-height: 1.3em;
 }
 
 /*  TIMELINE RIGHT */
@@ -143,12 +144,12 @@ body {
 .timelineGridRight {
   position: relative;
   grid-column-start: 2;
-  height: 975px;
+  height: 1100px;
   width: 100%;
-  border-left: 5px solid #E7671E;
+  border-left: 3px solid #E7671E;
 }
 
-.timelineDotRight {
+/* .timelineDotRight {
   position: absolute;
   left: -12px;
   top: 8px;
@@ -158,19 +159,27 @@ body {
   border: 2px solid #E7671E;
   z-index: 100;
   border-radius: 50%;
-}
+} */
 
 .timelineDateRight {
-  border-bottom: 2px solid #E7671E;
+  border-bottom: 3px solid #E7671E;
   text-align: right;
   color: grey;
-  font-family: 'Ultra';
+  font-size: 1.3em;
+  font-family: 'Dual300';
+  letter-spacing: 3px;
+  padding-bottom: 5px;
 }
 
 .timelineTextRight {
 position: absolute;
 left: 40px;
 text-align: right;
+font-family: 'Dual300';
+font-size: 1.1em;
+padding-top: 5px;
+letter-spacing: 3px;
+line-height: 1.3em;
 }
 
 /* TIMELINE ITEMS */
@@ -184,7 +193,8 @@ text-align: right;
 .timelineItem7 {  position: absolute;  top: 600px; right: 0px; width: 400px}
 .timelineItem8 {  position: absolute;  top: 700px; left: 0px; width: 400px}
 .timelineItem9 {  position: absolute;  top: 800px; right: 0px; width: 400px}
-.timelineItem10 {  position: absolute;  top: 900px; left: 0px; width: 400px}
+.timelineItem10 { position: absolute;  top: 900px; left: 0px; width: 400px}
+.timelineItem11 { position: absolute;  top: 1000px; right: 0px; width: 400px}
 
 /* PEOPLE */
 
