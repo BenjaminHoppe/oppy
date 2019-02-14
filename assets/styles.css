@@ -74,7 +74,7 @@ body {
 }
 
 .left > p, .right > p {
-  font-size: 1.3em;
+  font-size: 1.2em;
   line-height: 1.8em;
   letter-spacing: 3px;
   font-family: 'Dual300';
@@ -252,7 +252,7 @@ p > a:hover {
 }
 
 .team > p {
-  font-size: 1.1em;
+  font-size: 1.2em;
   line-height: 1.8em;
   letter-spacing: 3px;
   font-family: 'Dual300';
