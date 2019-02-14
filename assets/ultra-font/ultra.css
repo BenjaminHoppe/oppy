@@ -1,0 +1,9 @@
+@font-face {
+    font-family: 'Ultra';
+    src: url('fonts/Ultra.eot');
+    src: url('fonts/Ultra.eot') format('embedded-opentype'),
+         url('fonts/Ultra.woff2') format('woff2'),
+         url('fonts/Ultra.woff') format('woff'),
+         url('fonts/Ultra.ttf') format('truetype'),
+         url('fonts/Ultra.svg#Ultra') format('svg');
+}
