@@ -1,3 +1,7 @@
+a {
+  text-decoration: none;
+}
+
 body {
   background-color: #0F0101;
   color: #f3f3f3;
@@ -25,17 +29,18 @@ body {
 }
 
 .heroGradient > h1 {
-  text-align: center;
   padding-top: 45vh;
   font-size: 5em;
   font-family: 'Ultra';
+  text-align: center;
 }
 
 .heroGradient > h2 {
-  text-align: center;
   font-size: 2em;
   letter-spacing: 5px;
   font-family: 'Dual300';
+  text-align: center;
+  padding-right: 40px;
 }
 
 .heroImage {
@@ -85,7 +90,7 @@ body {
 /* TIMELINE */
 
 .timeline {
-  margin-bottom: 300px;
+  margin-bottom: 80px;
 }
 
 .timeline > h2 {
@@ -182,6 +187,26 @@ letter-spacing: 3px;
 line-height: 1.3em;
 }
 
+.timeline > p {
+  text-align: center;
+  padding-top: 50px;
+  font-family: 'Dual300';
+  font-size: 1.3em;
+  letter-spacing: 3px;
+}
+
+p > a {
+  text-decoration: none;
+  color: #E7671E;
+  opacity: 1;
+  transition: opacity 0.5s;
+}
+
+p > a:hover {
+  opacity: 0.5;
+  transition: opacity 0.5s;
+}
+
 /* TIMELINE ITEMS */
 
 .timelineItem1 {  position: absolute;  top: -10px; right: 0px; width: 400px;}
@@ -202,6 +227,32 @@ line-height: 1.3em;
 
 }
 
+.team > h2 {
+  text-align: center;
+  font-size: 3em;
+  font-family: 'Ultra';
+  padding-bottom: 40px;
+}
+
+.team > p {
+  font-size: 1.1em;
+  line-height: 1.8em;
+  letter-spacing: 3px;
+  font-family: 'Dual300';
+  margin: 0 320px;
+  text-align: center;
+}
+
+.logos {
+  display: flex;
+  justify-content: center;
+  padding-top: 40px;
+
+}
+
+.logos > img {
+  height: 150px;
+}
 /* LINKS? */
 .resources {
 
