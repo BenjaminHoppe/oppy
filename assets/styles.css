@@ -291,9 +291,10 @@ footer {
 }
 
 .footerContent {
-  margin: 100px 0 0 50px;
-  width: 350px;
-  text-align: justify;
+  margin: 120px 0 0 50px;
+  display: flex;
+  justify-content: flex-start;
+
 }
 
 .footerContent > li {
@@ -304,13 +305,37 @@ footer {
   list-style-type: none;
 }
 
-.socials {
-  font-size: 0.7em;
+li > a {
+  color: #f3f3f3;
+  font-size: 0.8em;
+  transition: color 0.5s;
+}
+
+li > a:hover {
+  color: #E7671E;
+  transition: color 0.5s;
+}
+
+.creditLink {
+  color: #f3f3f3;
+  transition: color 0.5s;
+}
+
+.creditLink:hover {
+  color: #E7671E;
+  transition: color 0.5s;
+  opacity: 1;
+}
+
+.nasaSocials, .jplSocials {
+  font-size: 1.2em;
   line-height: 1.5em;
   letter-spacing: 3px;
   font-family: 'Dual300';
   list-style-type: none;
+  margin-right: 40px;
 }
+
 
 .disclaimer {
   font-size: 1em;
@@ -318,15 +343,17 @@ footer {
   font-family: 'Dual300';
   margin-top: 30px;
   margin-left: 50px;
-  text-align: left
+  text-align: left;
+  line-height: 20px;
 }
 
 .credit {
   font-size: 1em;
   letter-spacing: 3px;
   font-family: 'Dual300';
-  margin: 80px 320px 0 320px;
-  text-align: center;
+  margin-left: 50px;
+  margin-top: 20px;
+  text-align: left;
 }
 
 
