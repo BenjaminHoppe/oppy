@@ -241,7 +241,7 @@ p > a:hover {
 /* PEOPLE */
 
 .team {
-  padding-bottom: 130px;
+  padding: 75px 0;
 }
 
 .team > h2 {
