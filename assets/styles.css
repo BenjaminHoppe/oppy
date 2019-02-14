@@ -241,7 +241,7 @@ p > a:hover {
 /* PEOPLE */
 
 .team {
-  padding-bottom: 125px;
+  padding-bottom: 130px;
 }
 
 .team > h2 {
@@ -263,7 +263,7 @@ p > a:hover {
 .logos {
   display: flex;
   justify-content: center;
-  padding-top: 40px;
+  padding: 40px 0;
 }
 
 .logos > img {
@@ -277,6 +277,7 @@ footer {
   position: relative;
   display: flex;
   flex-direction: column;
+  justify-content: space-around;
 }
 
 .footerGradient {
@@ -288,6 +289,47 @@ footer {
   z-index: 100;
   background: linear-gradient(#0F0101 15%, transparent 45% );
 }
+
+.footerContent {
+  margin: 100px 0 0 50px;
+  width: 350px;
+  text-align: justify;
+}
+
+.footerContent > li {
+  font-size: 1em;
+  line-height: 1.8em;
+  letter-spacing: 3px;
+  font-family: 'Dual300';
+  list-style-type: none;
+}
+
+.socials {
+  font-size: 0.7em;
+  line-height: 1.5em;
+  letter-spacing: 3px;
+  font-family: 'Dual300';
+  list-style-type: none;
+}
+
+.disclaimer {
+  font-size: 1em;
+  letter-spacing: 3px;
+  font-family: 'Dual300';
+  margin-top: 30px;
+  margin-left: 50px;
+  text-align: left
+}
+
+.credit {
+  font-size: 1em;
+  letter-spacing: 3px;
+  font-family: 'Dual300';
+  margin: 80px 320px 0 320px;
+  text-align: center;
+}
+
+
 
 
 
