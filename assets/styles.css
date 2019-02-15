@@ -418,12 +418,11 @@ li > a:hover {
 }
 
 .mission {
-  margin: 20px 40px 100px 40px;
+  margin: 20px 40px 50px 40px;
 }
 
 .mission > h1 {
   margin: 20px 0;
-
   font-size: 1.5em;
 }
 
@@ -454,7 +453,7 @@ li > a:hover {
 }
 
 .timeline > h2 {
-  font-size: 2em;
+  font-size: 1.5em;
   margin-bottom: 50px;
 }
 
