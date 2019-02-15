@@ -377,11 +377,11 @@ li > a:hover {
 }
 
 .mission {
-  margin: 20px 40px 50px 40px;
+  margin: 0 40px;
 }
 
 .mission > h2 {
-  margin: 20px 0;
+  margin: 50px 0;
   font-size: 1.7em;
 }
 
@@ -407,18 +407,34 @@ li > a:hover {
   margin-left: 0;
 }
 
+.timeline {
+  margin: 20px 40px 50px 40px;
+}
+
+.timeline > h2 {
+  margin: 50px 0;
+  font-size: 1.5em;
+}
+
+.timeline > p {
+  font-size: 0.9em;
+  line-height: 25px;
+}
+
 .team {
-  margin: 40px;
+  margin: 0 40px;
 }
 
 .team > h2 {
-  margin: 20px 0;
+  margin: 50px 0;
   font-size: 1.7em;
+  padding: 0;
 }
 
 .team > p {
   font-size: 0.9em;
   margin: 0;
+  padding: 0;
   text-align: left;
 }
 
@@ -432,20 +448,6 @@ li > a:hover {
 
 
 
-
-.timeline {
-  margin: 20px 40px 40px 40px;
-}
-
-.timeline > h2 {
-  margin: 20px 0 50px 0;
-  font-size: 1.5em;
-}
-
-.timeline > p {
-  font-size: 0.9em;
-  line-height: 25px;
-}
 
 .timelineGrid {
   grid-template-columns: 1fr;
