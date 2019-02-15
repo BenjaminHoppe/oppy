@@ -171,6 +171,7 @@ body {
   height: 1450px;
   top: 20px;
   width: 100%;
+  z-index: 50;
   border-left: 3px solid #E7671E;
   margin-left: 1px;
 }
@@ -246,14 +247,14 @@ p > a:hover {
 /* PEOPLE */
 
 .team {
-  padding: 75px 0;
+  margin: 75px 0;
 }
 
 .team > h2 {
   text-align: center;
   font-size: 3em;
   font-family: 'Ultra';
-  padding-bottom: 40px;
+  padding-bottom: 75px;
 }
 
 .team > p {
