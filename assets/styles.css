@@ -365,9 +365,74 @@ li > a:hover {
 
 @media only screen and (max-width: 600px) {
 
+.hero {
+  height: 45vh;
+}
+
+.heroGradient {
+  background: linear-gradient(transparent 75%, #0F0101 95% );
+}
+
+.heroGradient > h1 {
+  font-size: 2em;
+  padding-top: 20vh;
+}
+
+.heroGradient > h2 {
+  font-size: 1.2em;
+  letter-spacing: 3px;
+  padding-right: 20px;
+}
+
+.mission {
+  margin: 20px 40px 100px 40px;
+}
+
+.grid {
+  grid-template-columns: 1fr;
+}
+
+.mission > h1 {
+  font-size: 1.5em;
+
+}
+
+.left > p, .right > p {
+  font-size: 0.7em;
+}
+
+.left {
+  grid-column-start: 1;
+  margin-left: 0;
+  margin-right: 0;
+  margin-bottom: 30px;
+}
+
+
+.right {
+  grid-column-start: 1;
+  margin-left: 0;
+}
+
+.timeline {
+  padding-bottom: 40px;
+}
+
+.timeline > h2 {
+  font-size: 1.5em;
+  margin-bottom: 50px;
+}
 
 
 
+
+
+
+
+
+
+
+/* end */
 
 
 
