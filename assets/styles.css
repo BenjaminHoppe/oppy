@@ -67,7 +67,7 @@ body {
   margin: 40px 200px 100px 200px;
 }
 
-.mission > h1 {
+.mission > h2 {
   text-align: center;
   margin-bottom: 40px;
   font-size: 3em;
@@ -366,7 +366,7 @@ li > a:hover {
 }
 
 .heroGradient > h1 {
-  font-size: 2em;
+  font-size: 2.3em;
   padding-top: 20vh;
 }
 
@@ -380,9 +380,9 @@ li > a:hover {
   margin: 20px 40px 50px 40px;
 }
 
-.mission > h1 {
+.mission > h2 {
   margin: 20px 0;
-  font-size: 1.5em;
+  font-size: 1.7em;
 }
 
 .grid {
@@ -407,6 +407,32 @@ li > a:hover {
   margin-left: 0;
 }
 
+.team {
+  margin: 40px;
+}
+
+.team > h2 {
+  margin: 20px 0;
+  font-size: 1.7em;
+}
+
+.team > p {
+  font-size: 0.9em;
+  margin: 0;
+  text-align: left;
+}
+
+.logos > img {
+  height: 100px;
+  margin: 0 20px;
+}
+
+
+
+
+
+
+
 .timeline {
   margin: 20px 40px 40px 40px;
 }
@@ -417,7 +443,8 @@ li > a:hover {
 }
 
 .timeline > p {
-
+  font-size: 0.9em;
+  line-height: 25px;
 }
 
 .timelineGrid {
@@ -471,6 +498,8 @@ li > a:hover {
 .timelineItem9 {  position: absolute;  top: 1150px; right: 0px; width: 400px}
 .timelineItem10 { position: absolute;  top: 1300px; left: 0px; width: 400px}
 .timelineItem11 { position: absolute; top: 1450px; right: 0px; width: 400px}
+
+
 
 /* end */
 
