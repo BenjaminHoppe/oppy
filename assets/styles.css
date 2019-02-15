@@ -9,11 +9,6 @@ body {
   overflow-x:hidden;
 }
 
-/* .desktop {
-  visibility: visible;
-  height: 100%;
-} */
-
 /* BACKGROUND IMAGE/TITLE */
 
 
@@ -345,7 +340,6 @@ li > a:hover {
   margin-right: 40px;
 }
 
-
 .disclaimer {
   font-size: 1em;
   letter-spacing: 3px;
@@ -365,44 +359,7 @@ li > a:hover {
   text-align: left;
 }
 
-/* .mobile {
-  visibility: hidden;
-} */
-
-
-
-
-/* BREAKPOINTS */
-
-
-/* @media only screen and (max-width: 1100px) {
-
-  .mission {
-    margin: 20px 100px 100px 100px;
-  }
-
-  .team > p {
-    margin: 20px 200px;
-  }
-
-} */
-
-
 @media only screen and (max-width: 888px) {
-
-/* .desktop {
-  visibility: hidden;
-  overflow: hidden;
-  height: 0px;
-  display: none;
-} */
-
-/* .mobile {
-  visibility: visible;
-  height: 100vh;
-  width: 100vw;
-  overflow: hidden;
-} */
 
 .hero {
   height: 45vh;
@@ -425,7 +382,6 @@ li > a:hover {
 
 .mission > h1 {
   margin: 20px 0;
-
   font-size: 1.5em;
 }
 
@@ -452,12 +408,16 @@ li > a:hover {
 }
 
 .timeline {
-  padding-bottom: 40px;
+  margin: 20px 40px 40px 40px;
 }
 
 .timeline > h2 {
-  font-size: 2em;
-  margin-bottom: 50px;
+  margin: 20px 0 50px 0;
+  font-size: 1.5em;
+}
+
+.timeline > p {
+
 }
 
 .timelineGrid {
@@ -512,17 +472,7 @@ li > a:hover {
 .timelineItem10 { position: absolute;  top: 1300px; left: 0px; width: 400px}
 .timelineItem11 { position: absolute; top: 1450px; right: 0px; width: 400px}
 
-
-
-
-
-
-
-
-
 /* end */
-
-
 
 
 }
