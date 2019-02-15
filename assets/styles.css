@@ -370,7 +370,7 @@ li > a:hover {
 }
 
 .heroGradient {
-  background: linear-gradient(transparent 75%, #0F0101 95% );
+  background: linear-gradient(transparent 20%, #0F0101 100% );
 }
 
 .heroGradient > h1 {
