@@ -324,12 +324,14 @@ li > a:hover {
 
 .creditLink {
   color: #f3f3f3;
-  transition: color 0.5s;
+  transition: 0.5s;
+  border-bottom: 1px solid #f3f3f3;
 }
 
 .creditLink:hover {
   color: #E7671E;
-  transition: color 0.5s;
+  transition: 0.5s;
+  border-bottom: 1px solid #E7671E;
   opacity: 1;
 }
 
@@ -417,6 +419,7 @@ p {
   letter-spacing: 3px;
   font-family: 'Dual300';
 }
+
 
 
 
