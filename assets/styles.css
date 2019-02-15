@@ -26,7 +26,7 @@ body {
 .hero2 {
   position: relative;
   width: 100vw;
-  height: 400px;
+  height: 45vh;
   overflow: hidden;
 }
 
@@ -39,7 +39,6 @@ body {
   z-index: 100;
   background: linear-gradient(transparent 75%, #0F0101 95% );
 }
-
 
 .heroGradient > h1 {
   padding-top: 45vh;
@@ -406,24 +405,26 @@ li > a:hover {
 .hero {
   height: 45vh;
 }
+
 .heroGradient > h1 {
-  font-size: 3em;
+  font-size: 2em;
   padding-top: 20vh;
 }
 
 .heroGradient > h2 {
-  font-size: 1.2em;
+  font-size: 1em;
   letter-spacing: 3px;
   padding-right: 20px;
 }
 
 .mission {
-  margin: 20px 80px 100px 80px;
+  margin: 20px 40px 100px 40px;
 }
 
 .mission > h1 {
-  margin-top: 20px;
-  font-size: 2em;
+  margin: 20px 0;
+
+  font-size: 1.5em;
 }
 
 .grid {
@@ -453,7 +454,7 @@ li > a:hover {
 }
 
 .timeline > h2 {
-  font-size: 1.5em;
+  font-size: 2em;
   margin-bottom: 50px;
 }
 
