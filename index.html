@@ -12,7 +12,7 @@
  <title>Oppy</title>
  <script src="node_modules/wowjs/dist/wow.min.js"></script>
   <script>
-    new WOW().init();
+    window.WOW = require('wowjs').WOW
   </script>
 </head>
 <body>
@@ -23,8 +23,8 @@
   <div class="desktop">
   <section class="hero">
     <div class="heroGradient">
-      <h1>OPPORTUNITY</h1>
-      <h2>The rover that never gave up</h2>
+      <h1 class="wow animated fadeInDown slow">OPPORTUNITY</h1>
+      <h2 class="wow animated fadeInDown slow">The rover that never gave up</h2>
     </div>
     <img class="heroImage" src="assets/img/hero.jpeg">
   </section>
@@ -32,16 +32,16 @@
     <h1>A brief history</h1>
     <div class="grid">
       <div class="left">
-        <p>Opportunity took off on July 3rd, 2003 from launch complex 17 at Cape Canaveral aboard a Delta II heavy rocket as apart of the Mars Exploration Rovers mission. Opportunity landed on Mars in the Meridiani Planum 206 days later on January 25th, 2004, three weeks after its twin Spirit touched down on the other side of The Red Planet.</p>
+        <p class="left wow animated fadeInLeft" data-wow-delay="0.4s">Opportunity took off on July 3rd, 2003 from launch complex 17 at Cape Canaveral aboard a Delta II heavy rocket as apart of the Mars Exploration Rovers mission. Opportunity landed on Mars in the Meridiani Planum 206 days later on January 25th, 2004, three weeks after its twin Spirit touched down on the other side of The Red Planet.</p>
       </br>
       </br>
-        <p>The Original Mission was slated to last a mere 90 days, but Opportunity pushed on for an additional 5,160 days (5022 Sols) before it’s last official transmition back home on June 10th, 2018. The rover lost contact due to a planetary wide dust storm which prevented the solar panels from recharging and heating up Opportunity.</p>
+        <p class="left wow animated fadeInLeft" data-wow-delay="0.4s">The Original Mission was slated to last a mere 90 days, but Opportunity pushed on for an additional 5,160 days (5022 Sols) before it’s last official transmition back home on June 10th, 2018. The rover lost contact due to a planetary wide dust storm which prevented the solar panels from recharging and heating up Opportunity.</p>
       </div>
       <div class="right">
-        <p>Eight months and 835 commands later, on February 12, 2019, NASA made a last ditch effort to get in touch with the rover that ultimately wasn’t successful, declaring end of Mission on February 13, 2019. NASA felt hopeful since the storm had passed and it was usually windy on Mars at this time of year. The best explanation is that Opportunity’s solar panels are covered in a thick layer of dust, preventing Oppy from heating up and turning back on.</p>
+        <p class="wow animated fadeInRight" data-wow-delay="0.4s">Eight months and 835 commands later, on February 12, 2019, NASA made a last ditch effort to get in touch with the rover that ultimately wasn’t successful, declaring end of Mission on February 13, 2019. NASA felt hopeful since the storm had passed and it was usually windy on Mars at this time of year. The best explanation is that Opportunity’s solar panels are covered in a thick layer of dust, preventing Oppy from heating up and turning back on.</p>
       </br>
       </br>
-        <p>Opportunity holds the crown for the highest distance traveled by any rover in our solar system at 45.16 km (28.06 miles) and has helped humanity make incredible discoveries, check out the timeline below to learn about all the Science Opportunity acomplished.</p>
+        <p class="wow animated fadeInRight" data-wow-delay="0.4s">Opportunity holds the crown for the highest distance traveled by any rover in our solar system at 45.16 km (28.06 miles) and has helped humanity make incredible discoveries, check out the timeline below to learn about all the Science Opportunity acomplished.</p>
       </div>
     </div>
 
