@@ -9,10 +9,10 @@ body {
   overflow-x:hidden;
 }
 
-.desktop {
+/* .desktop {
   visibility: visible;
   height: 100%;
-}
+} */
 
 /* BACKGROUND IMAGE/TITLE */
 
@@ -364,9 +364,9 @@ li > a:hover {
   text-align: left;
 }
 
-.mobile {
+/* .mobile {
   visibility: hidden;
-}
+} */
 
 
 
@@ -389,19 +389,19 @@ li > a:hover {
 
 @media only screen and (max-width: 888px) {
 
-.desktop {
+/* .desktop {
   visibility: hidden;
   overflow: hidden;
   height: 0px;
   display: none;
-}
+} */
 
-.mobile {
+/* .mobile {
   visibility: visible;
   height: 100vh;
   width: 100vw;
   overflow: hidden;
-}
+} */
 
 h2 {
   text-align: center;
