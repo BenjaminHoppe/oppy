@@ -9,6 +9,11 @@ body {
   overflow-x:hidden;
 }
 
+.desktop {
+  visibility: visible;
+  height: 100%;
+}
+
 /* BACKGROUND IMAGE/TITLE */
 
 .hero {
@@ -356,7 +361,9 @@ li > a:hover {
   text-align: left;
 }
 
-
+.mobile {
+  visibility: hidden;
+}
 
 
 
@@ -365,6 +372,29 @@ li > a:hover {
 
 @media only screen and (max-width: 600px) {
 
+.desktop {
+  visibility: hidden;
+  overflow: hidden;
+  height: 0px;
+}
+
+.mobile {
+  visibility: visible;
+  height: 100vh;
+  width: 100vw;
+}
+
+img {
+  height: 100vh;
+  width: 100vw;
+}
+
+
+
+
+
+
+/*
 .hero {
   height: 45vh;
 }
@@ -398,7 +428,7 @@ li > a:hover {
 }
 
 .left > p, .right > p {
-  font-size: 0.7em;
+  font-size: 0.9em;
 }
 
 .left {
@@ -423,8 +453,59 @@ li > a:hover {
   margin-bottom: 50px;
 }
 
+.timelineGrid {
+  grid-template-columns: 1fr;
+}
 
+.timelineGridRight {
+  grid-column-start: 1;
+  position: relative;
+}
 
+.timelineDateRight {
+  border-bottom: 3px solid #E7671E;
+  text-align: left;
+  color: grey;
+  font-size: 1.3em;
+  font-family: 'Dual300';
+  letter-spacing: 3px;
+  padding-bottom: 5px;
+}
+
+.timelineTextRight {
+  position: absolute;
+  font-family: 'Dual300';
+  font-size: 1.1em;
+  padding-top: 5px;
+  letter-spacing: 3px;
+  line-height: 1.3em;
+}
+
+.timelineDotRight {
+  position: absolute;
+  right: -12px;
+  top: 18px;
+  width: 15px;
+  height: 15px;
+  background-color: #0f0101;
+  border: 2px solid #E7671E;
+  z-index: 100;
+  border-radius: 50%;
+}
+
+.timelineItem1 {  position: absolute;  top: 0px; left: 0px; width: 400px;}
+.timelineItem2 {  position: absolute;  top: 100px; left: 0px; width: 400px}
+.timelineItem3 {  position: absolute;  top: 250px; right: 0px; width: 400px}
+.timelineItem4 {  position: absolute;  top: 400px; left: 0px; width: 400px}
+.timelineItem5 {  position: absolute;  top: 550px; right: 0px; width: 400px}
+.timelineItem6 {  position: absolute;  top: 700px; left: 0px; width: 400px}
+.timelineItem7 {  position: absolute;  top: 850px; right: 0px; width: 400px}
+.timelineItem8 {  position: absolute;  top: 1000px; left: 0px; width: 400px}
+.timelineItem9 {  position: absolute;  top: 1150px; right: 0px; width: 400px}
+.timelineItem10 { position: absolute;  top: 1300px; left: 0px; width: 400px}
+.timelineItem11 { position: absolute; top: 1450px; right: 0px; width: 400px}
+
+*/
 
 
 
