@@ -562,7 +562,9 @@ footer {
 }
 
 .footerContent {
-  margin: 50px auto;
+  margin: 80px auto;
+  width: 100vw;
+  grid-template-columns: 1fr;
 }
 
 .footerContent > li {
@@ -574,15 +576,13 @@ footer {
   font-size: 0.7em;
 }
 
-.socialIcons {
-
+.social {
+  margin: 15px 0 0 25px;
 }
 
 .nasaSocials, .jplSocials {
   font-size: 0.7em;
   line-height: 1.3em;
-  margin-right: 0;
-  /* margin-right: 20px; */
 }
 
 .disclaimer {
@@ -593,7 +593,8 @@ footer {
 
 .credit {
   font-size: 0.7em;
-  margin: 10px 0 0 25px;
+  margin: 15px 0 0 25px;
+  line-height: 1.3em;
 }
 
 
