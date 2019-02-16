@@ -264,9 +264,6 @@ line-height: 1.3em;
 
 footer {
   position: relative;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-around;
 }
 
 .hero2 {
@@ -287,10 +284,12 @@ footer {
 }
 
 .footerContent {
-  margin: 120px 0 0 50px;
-  display: flex;
-  justify-content: flex-start;
-
+  margin-top: 120px;
+  margin-left: 80px;
+  width: 60vw;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 3;
 }
 
 .footerContent > li {
@@ -305,6 +304,7 @@ li > a {
   color: #f3f3f3;
   font-size: 0.8em;
   transition: color 0.5s;
+  margin-right: 10px;
 }
 
 li > a:hover {
@@ -325,38 +325,52 @@ li > a:hover {
   opacity: 1;
 }
 
-.socialIcons {
+.social {
+  grid-column-start: 1;
+  grid-column-end: 2;
   display: flex;
+  justify-content: flex-start;
+  flex-direction: row;
   flex-wrap: nowrap;
-  justify-content: center;
-  padding-left: 50px;
 }
-.nasaSocials, .jplSocials {
+.nasaSocials {
   font-size: 1.2em;
   line-height: 1.5em;
   letter-spacing: 3px;
   font-family: 'Dual300';
   list-style-type: none;
-  margin-right: 40px;
+  margin-right: 60px;
+}
+
+.jplSocials {
+  font-size: 1.2em;
+  line-height: 1.5em;
+  letter-spacing: 3px;
+  font-family: 'Dual300';
+  list-style-type: none;
 }
 
 .disclaimer {
   font-size: 1em;
   letter-spacing: 3px;
   font-family: 'Dual300';
-  margin-top: 30px;
-  margin-left: 50px;
   text-align: left;
   line-height: 1.5em;
+  grid-column-start: 1;
+  grid-column-end: 3;
+  grid-row-start: 2;
+  margin-top: 20px;
 }
 
 .credit {
   font-size: 1em;
   letter-spacing: 3px;
   font-family: 'Dual300';
-  margin-left: 50px;
-  margin-top: 20px;
+  margin-top: 40px;
   text-align: left;
+  grid-column-start: 1;
+  grid-column-end: 4;
+  grid-row-start: 3;
 }
 
 
