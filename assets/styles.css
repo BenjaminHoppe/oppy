@@ -30,8 +30,6 @@ body {
   width: 100vw;
   height: 75vh;
   overflow: hidden;
-  max-width: 100%;
-  min-height: 100%;
 }
 
 .heroGradient {
@@ -64,8 +62,6 @@ body {
 }
 
 .heroImage {
-  /* min-height: 500px;
-  min-width: 100%; */
   width: 100vw;
   top: 0;
   left: 0;
@@ -76,7 +72,7 @@ body {
 /* SUMMARY */
 
 .mission {
-  margin: 40px 200px 100px 200px;
+  margin: 40px 100px 100px 100px;
 }
 
 .mission > h2 {
@@ -249,7 +245,7 @@ line-height: 1.3em;
 /* PEOPLE */
 
 .team {
-  margin: 75px 250px;
+  margin: 75px 225px;
 }
 
 .team > h2 {
@@ -385,22 +381,22 @@ li > a:hover {
 
 /* HEADER  */
 
-.hero {
-  height: 45vh;
+.header {
+  height: 30vh;
   min-width: 100%;
 }
 
 .heroGradient {
-
+  height: 10vh;
 }
 
-.heroGradient > h1 {
+.heroContent > h1 {
   font-size: 2.3em;
-  padding-top: 20vh;
+  padding-top: 13vh;
 }
 
-.heroGradient > h2 {
-  font-size: 1em;
+.heroContent > h2 {
+  font-size: 1.1em;
   letter-spacing: 3px;
   padding-right: 20px;
 }
@@ -412,8 +408,8 @@ li > a:hover {
 }
 
 .mission > h2 {
-  margin: 50px 0;
-  font-size: 1.7em;
+  margin: 20px 0;
+  font-size: 2em;
 }
 
 .grid {
@@ -454,7 +450,7 @@ li > a:hover {
 
 .timeline > h2 {
   margin: 50px 0;
-  font-size: 1.5em;
+  font-size: 2em;
 }
 
 .timeline > p {
@@ -502,8 +498,6 @@ li > a:hover {
   left: 0;
 }
 
-
-
 .timelineDotRight {
   position: absolute;
   right: -12px;
@@ -536,7 +530,7 @@ li > a:hover {
 
 .team > h2 {
   margin: 50px 0;
-  font-size: 1.7em;
+  font-size: 2em;
   padding: 0;
 }
 
