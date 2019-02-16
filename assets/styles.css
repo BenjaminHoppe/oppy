@@ -10,11 +10,6 @@ body {
   overflow-x:hidden;
 }
 
-/* .desktop {
-  visibility: visible;
-  height: 100%;
-} */
-
 /* BACKGROUND IMAGE/TITLE */
 
 
@@ -73,7 +68,7 @@ body {
   margin: 40px 200px 100px 200px;
 }
 
-.mission > h1 {
+.mission > h2 {
   text-align: center;
   margin-bottom: 40px;
   font-size: 3em;
@@ -285,7 +280,6 @@ p > a:hover {
 .logos > img {
   height: 150px;
 }
-/* TWITTER */
 
 /* FOOTER */
 
@@ -345,6 +339,12 @@ li > a:hover {
   opacity: 1;
 }
 
+.socialIcons {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: center;
+  padding-left: 50px;
+}
 .nasaSocials, .jplSocials {
   font-size: 1.2em;
   line-height: 1.5em;
@@ -354,7 +354,6 @@ li > a:hover {
   margin-right: 40px;
 }
 
-
 .disclaimer {
   font-size: 1em;
   letter-spacing: 3px;
@@ -362,7 +361,7 @@ li > a:hover {
   margin-top: 30px;
   margin-left: 50px;
   text-align: left;
-  line-height: 20px;
+  line-height: 1.5em;
 }
 
 .credit {
@@ -374,51 +373,14 @@ li > a:hover {
   text-align: left;
 }
 
-/* .mobile {
-  visibility: hidden;
-} */
-
-
-
-
-/* BREAKPOINTS */
-
-
-/* @media only screen and (max-width: 1100px) {
-
-  .mission {
-    margin: 20px 100px 100px 100px;
-  }
-
-  .team > p {
-    margin: 20px 200px;
-  }
-
-} */
-
-
 @media only screen and (max-width: 888px) {
-
-/* .desktop {
-  visibility: hidden;
-  overflow: hidden;
-  height: 0px;
-  display: none;
-} */
-
-/* .mobile {
-  visibility: visible;
-  height: 100vh;
-  width: 100vw;
-  overflow: hidden;
-} */
 
 .hero {
   height: 45vh;
 }
 
 .heroGradient > h1 {
-  font-size: 2em;
+  font-size: 2.3em;
   padding-top: 20vh;
 }
 
@@ -429,13 +391,12 @@ li > a:hover {
 }
 
 .mission {
-  margin: 20px 40px 100px 40px;
+  margin: 0 40px;
 }
 
-.mission > h1 {
-  margin: 20px 0;
-
-  font-size: 1.5em;
+.mission > h2 {
+  margin: 50px 0;
+  font-size: 1.7em;
 }
 
 .grid {
@@ -471,12 +432,89 @@ li > a:hover {
 }
 
 .timeline {
-  padding-bottom: 40px;
+  margin: 20px 40px 50px 40px;
 }
 
 .timeline > h2 {
-  font-size: 2em;
-  margin-bottom: 50px;
+  margin: 50px 0;
+  font-size: 1.5em;
+}
+
+.timeline > p {
+  font-size: 0.9em;
+  line-height: 25px;
+}
+
+.team {
+  margin: 0 40px;
+}
+
+.team > h2 {
+  margin: 50px 0;
+  font-size: 1.7em;
+  padding: 0;
+}
+
+.team > p {
+  font-size: 0.9em;
+  margin: 0;
+  padding: 0;
+  text-align: left;
+}
+
+.logos > img {
+  height: 100px;
+  margin: 0 20px;
+}
+
+/* FOOTER */
+
+footer {
+
+}
+
+.footerContent {
+  margin: 50px auto;
+}
+
+.footerContent > li {
+  font-size: 0.7em;
+  line-height: 1.3em;
+}
+
+.footer > a {
+  font-size: 0.7em;
+}
+
+.socialIcons {
+
+}
+
+.nasaSocials, .jplSocials {
+  font-size: 0.7em;
+  line-height: 1.3em;
+  margin-right: 0;
+  /* margin-right: 20px; */
+}
+
+.disclaimer {
+  font-size: 0.7em;
+  margin: 15px 0 0 25px;
+  line-height: 1.3em;
+}
+
+.credit {
+  font-size: 0.7em;
+  margin: 10px 0 0 25px;
+}
+
+
+
+
+
+
+.timelineGrid {
+  grid-template-columns: 1fr;
 }
 
 .timelineGridRight {
@@ -527,6 +565,7 @@ li > a:hover {
 .timelineItem10 { position: absolute;  top: 1300px; left: 0px; width: 400px}
 .timelineItem11 { position: absolute; top: 1450px; right: 0px; width: 400px}
 
+<<<<<<< HEAD
 .timelineMobileItem1 {position: absolute;  top: -20px; left: 0px; width: 400px}
 .timelineMobileItem2 {position: absolute;  top: 100px; left: 0px; width: 400px}
 .timelineMobileItem3 {position: absolute;  top: 200px; left: 0px; width: 400px}
@@ -542,11 +581,11 @@ li > a:hover {
 
 
 
+=======
+>>>>>>> 778003252ec9009de0d5d7fb207599835c20e787
 
 
 /* end */
-
-
 
 
 }
