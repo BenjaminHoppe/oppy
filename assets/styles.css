@@ -312,7 +312,7 @@ li > a:hover {
 }
 
 a > img {
-  margin-top: 5px;
+  margin-top: 7px;
   height: 30px;
   margin-right: 15px;
   opacity: 1;
@@ -379,7 +379,7 @@ a > img:hover {
   font-size: 0.8em;
   letter-spacing: 3px;
   font-family: 'Dual300';
-  margin-top: 60px;
+  margin-top: 30px;
   text-align: left;
   grid-column-start: 1;
   grid-column-end: 4;
@@ -563,7 +563,7 @@ footer {
 
 .footerContent {
   margin: 80px auto;
-  width: 100vw;
+  width: 90vw;
   grid-template-columns: 1fr;
 }
 
