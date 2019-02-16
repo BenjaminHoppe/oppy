@@ -271,7 +271,6 @@ p > a:hover {
 .logos > img {
   height: 150px;
 }
-/* TWITTER */
 
 /* FOOTER */
 
@@ -331,6 +330,13 @@ li > a:hover {
   opacity: 1;
 }
 
+.socialIcons {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: center;
+  padding-left: 50px;
+}
 .nasaSocials, .jplSocials {
   font-size: 1.2em;
   line-height: 1.5em;
@@ -347,7 +353,7 @@ li > a:hover {
   margin-top: 30px;
   margin-left: 50px;
   text-align: left;
-  line-height: 20px;
+  line-height: 1.5em;
 }
 
 .credit {
@@ -438,12 +444,50 @@ li > a:hover {
   text-align: left;
 }
 
-
 .logos > img {
   height: 100px;
   margin: 0 20px;
 }
 
+/* FOOTER */
+
+footer {
+
+}
+
+.footerContent {
+  margin: 50px auto;
+}
+
+.footerContent > li {
+  font-size: 0.7em;
+  line-height: 1.3em;
+}
+
+.footer > a {
+  font-size: 0.7em;
+}
+
+.socialIcons {
+
+}
+
+.nasaSocials, .jplSocials {
+  font-size: 0.7em;
+  line-height: 1.3em;
+  /* margin-right: 20px; */
+}
+
+.disclaimer {
+  font-size: 0.7em;
+  margin: 15px 0 0 25px;
+  line-height: 1.3em;
+}
+
+.credit {
+  font-size: 0.7em;
+  margin: 10px 0 0 25px;
+}
 
 
 
