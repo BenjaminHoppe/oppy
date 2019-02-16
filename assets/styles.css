@@ -28,18 +28,14 @@ body {
 .header {
   position: relative;
   width: 100vw;
-  height: 75vh;
-  overflow: hidden;
-}
-
-.heroGradient {
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  top: 0;
-  left: 0;
-  z-index: 100;
-  background: linear-gradient(transparent 75%, #0F0101 95% );
+  height: 65vh;
+  background-image: url("img/header.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  -moz-background-size: cover;
+  -webkit-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 }
 
 .heroContent {
@@ -61,13 +57,14 @@ body {
   padding-right: 40px;
 }
 
-.heroImage {
+/* .heroImage {
   width: 100vw;
   top: 0;
   left: 0;
   position: absolute;
   object-fit: contain;
-}
+  z-index: 50;
+} */
 
 /* SUMMARY */
 
@@ -382,17 +379,12 @@ li > a:hover {
 /* HEADER  */
 
 .header {
-  height: 30vh;
-  min-width: 100%;
-}
-
-.heroGradient {
-  height: 10vh;
+  height: 50vh;
 }
 
 .heroContent > h1 {
   font-size: 2.3em;
-  padding-top: 13vh;
+  padding-top: 23vh;
 }
 
 .heroContent > h2 {
