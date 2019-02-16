@@ -249,7 +249,7 @@ line-height: 1.3em;
 /* PEOPLE */
 
 .team {
-  margin: 75px 0;
+  margin: 75px 250px;
 }
 
 .team > h2 {
@@ -264,7 +264,6 @@ line-height: 1.3em;
   line-height: 1.8em;
   letter-spacing: 3px;
   font-family: 'Dual300';
-  margin: 0 320px;
   text-align: center;
 }
 
