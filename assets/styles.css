@@ -24,7 +24,6 @@ body {
 
 /* BACKGROUND IMAGE/TITLE */
 
-
 .header {
   position: relative;
   width: 100vw;
@@ -43,7 +42,7 @@ body {
 }
 
 .heroContent > h1 {
-  padding-top: 200px;
+  padding-top: 225px;
   font-size: 5em;
   font-family: 'Ultra';
   text-align: center;
@@ -56,15 +55,6 @@ body {
   text-align: center;
   padding-right: 40px;
 }
-
-/* .heroImage {
-  width: 100vw;
-  top: 0;
-  left: 0;
-  position: absolute;
-  object-fit: contain;
-  z-index: 50;
-} */
 
 /* SUMMARY */
 
