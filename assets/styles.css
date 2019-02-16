@@ -13,39 +13,37 @@ body {
 /* BACKGROUND IMAGE/TITLE */
 
 
-.hero {
+.header {
   position: relative;
   width: 100vw;
-  height: 95vh;
+  height: 75vh;
   overflow: hidden;
-}
-
-.hero2 {
-  position: relative;
-  width: 100vw;
-  height: 45vh;
-  overflow: hidden;
+  max-width: 100%;
+  min-height: 100%;
 }
 
 .heroGradient {
   position: absolute;
-  min-height: 500px;
-  width: 100vw;
-  margin: 0 auto;
+  width: 100%;
+  height: 100%;
   top: 0;
   left: 0;
   z-index: 100;
   background: linear-gradient(transparent 75%, #0F0101 95% );
 }
 
-.heroGradient > h1 {
-  padding-top: 45vh;
+.heroContent {
+  margin: 0;
+}
+
+.heroContent > h1 {
+  padding-top: 200px;
   font-size: 5em;
   font-family: 'Ultra';
   text-align: center;
 }
 
-.heroGradient > h2 {
+.heroContent > h2 {
   font-size: 2em;
   letter-spacing: 5px;
   font-family: 'Dual300';
@@ -54,12 +52,13 @@ body {
 }
 
 .heroImage {
-  min-height: 500px;
+  /* min-height: 500px;
+  min-width: 100%; */
   width: 100vw;
-  margin: 0 auto;
   top: 0;
   left: 0;
   position: absolute;
+  object-fit: contain;
 }
 
 /* SUMMARY */
@@ -290,6 +289,13 @@ footer {
   justify-content: space-around;
 }
 
+.hero2 {
+  position: relative;
+  width: 100vw;
+  height: 45vh;
+  overflow: hidden;
+}
+
 .footerGradient {
   position: absolute;
   top: 0;
@@ -377,6 +383,11 @@ li > a:hover {
 
 .hero {
   height: 45vh;
+  min-width: 100%;
+}
+
+.heroGradient {
+
 }
 
 .heroGradient > h1 {
@@ -565,7 +576,6 @@ footer {
 .timelineItem10 { position: absolute;  top: 1300px; left: 0px; width: 400px}
 .timelineItem11 { position: absolute; top: 1450px; right: 0px; width: 400px}
 
-<<<<<<< HEAD
 .timelineMobileItem1 {position: absolute;  top: -20px; left: 0px; width: 400px}
 .timelineMobileItem2 {position: absolute;  top: 100px; left: 0px; width: 400px}
 .timelineMobileItem3 {position: absolute;  top: 200px; left: 0px; width: 400px}
@@ -578,11 +588,6 @@ footer {
 .timelineMobileItem10 {position: absolute;  top: 1100px; left: 0px; width: 400px}
 .timelineMobileItem11 {position: absolute;  top: 1200px; left: 0px; width: 400px}
 
-
-
-
-=======
->>>>>>> 778003252ec9009de0d5d7fb207599835c20e787
 
 
 /* end */
