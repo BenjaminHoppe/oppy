@@ -332,7 +332,6 @@ li > a:hover {
 
 .socialIcons {
   display: flex;
-  flex-direction: column;
   flex-wrap: nowrap;
   justify-content: center;
   padding-left: 50px;
@@ -475,6 +474,7 @@ footer {
 .nasaSocials, .jplSocials {
   font-size: 0.7em;
   line-height: 1.3em;
+  margin-right: 0;
   /* margin-right: 20px; */
 }
 
