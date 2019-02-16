@@ -3,6 +3,18 @@ a {
   text-decoration: none;
 }
 
+p > a {
+  text-decoration: none;
+  color: #E7671E;
+  opacity: 1;
+  transition: opacity 0.5s;
+}
+
+p > a:hover {
+  opacity: 0.5;
+  transition: opacity 0.5s;
+}
+
 body {
   background-color: #0F0101;
   color: #f3f3f3;
@@ -222,20 +234,6 @@ line-height: 1.3em;
   letter-spacing: 3px;
 }
 
-p > a {
-  text-decoration: none;
-  color: #E7671E;
-  opacity: 1;
-  transition: opacity 0.5s;
-}
-
-p > a:hover {
-  opacity: 0.5;
-  transition: opacity 0.5s;
-}
-
-/* TIMELINE ITEMS */
-
 .timelineItem1 {  position: absolute;  top: 0px; right: 0px; width: 400px;}
 .timelineItem2 {  position: absolute;  top: 100px; left: 0px; width: 400px}
 .timelineItem3 {  position: absolute;  top: 250px; right: 0px; width: 400px}
@@ -379,7 +377,14 @@ li > a:hover {
   text-align: left;
 }
 
+
+/* ------------------------------------------------------- */
+/* MEDIA QUERY */
+/* ------------------------------------------------------- */
+
 @media only screen and (max-width: 888px) {
+
+/* HEADER  */
 
 .hero {
   height: 45vh;
@@ -400,6 +405,8 @@ li > a:hover {
   letter-spacing: 3px;
   padding-right: 20px;
 }
+
+/* MISSION */
 
 .mission {
   margin: 0 40px;
@@ -432,14 +439,14 @@ li > a:hover {
   margin-left: 0;
 }
 
+/* TIMELINE */
+
 .timelineDesktop {
   display: none;
 }
 
 .timelineMobile {
   display: block;
-  margin-left: 20vw;
-
 }
 
 .timeline {
@@ -455,6 +462,74 @@ li > a:hover {
   font-size: 0.9em;
   line-height: 25px;
 }
+
+.timelineGrid {
+  grid-template-columns: 1fr;
+}
+
+.timelineGridRight {
+  grid-column-start: 1;
+  position: relative;
+  height: 1300px;
+}
+
+.timelineDateRight {
+  border-bottom: 3px solid #E7671E;
+  text-align: left;
+  padding-top: 1.5px;
+  color: grey;
+  font-family: 'Dual300';
+  letter-spacing: 3px;
+  padding-bottom: 5px;
+}
+
+.timelineDateRight > p {
+  margin-left: 25px;
+  font-size: 1em;
+}
+
+.timelineTextRight > p {
+  margin-left: 25px;
+  font-size: 0.8em;
+}
+
+.timelineTextRight {
+  position: absolute;
+  font-family: 'Dual300';
+  padding-top: 5px;
+  letter-spacing: 3px;
+  line-height: 1.3em;
+  text-align: left;
+  left: 0;
+}
+
+
+
+.timelineDotRight {
+  position: absolute;
+  right: -12px;
+  top: 18px;
+  width: 15px;
+  height: 15px;
+  background-color: #0f0101;
+  border: 2px solid #E7671E;
+  z-index: 100;
+  border-radius: 50%;
+}
+
+.timelineMobileItem1 {position: absolute;  top: -20px; left: 0px; width: 80vw;}
+.timelineMobileItem2 {position: absolute;  top: 110px; left: 0px; width: 80vw;}
+.timelineMobileItem3 {position: absolute;  top: 240px; left: 0px; width: 80vw;}
+.timelineMobileItem4 {position: absolute;  top: 370px; left: 0px; width: 80vw;}
+.timelineMobileItem5 {position: absolute;  top: 510px; left: 0px; width: 80vw;}
+.timelineMobileItem6 {position: absolute;  top: 630px; left: 0px; width: 80vw;}
+.timelineMobileItem7 {position: absolute;  top: 780px; left: 0px; width: 80vw;}
+.timelineMobileItem8 {position: absolute;  top: 900px; left: 0px; width: 80vw;}
+.timelineMobileItem9 {position: absolute;  top: 1020px; left: 0px; width: 80vw;}
+.timelineMobileItem10 {position: absolute;  top: 1150px; left: 0px; width: 80vw;}
+.timelineMobileItem11 {position: absolute;  top: 1280px; left: 0px; width: 80vw;}
+
+/* TEAM */
 
 .team {
   margin: 0 40px;
@@ -519,74 +594,6 @@ footer {
   margin: 10px 0 0 25px;
 }
 
-
-
-
-
-
-.timelineGrid {
-  grid-template-columns: 1fr;
-}
-
-.timelineGridRight {
-  grid-column-start: 1;
-  position: relative;
-}
-
-.timelineDateRight {
-  border-bottom: 3px solid #E7671E;
-  text-align: right;
-  color: grey;
-  font-size: 1.3em;
-  font-family: 'Dual300';
-  letter-spacing: 3px;
-  padding-bottom: 5px;
-}
-
-.timelineTextRight {
-  position: absolute;
-  font-family: 'Dual300';
-  font-size: 1.1em;
-  padding-top: 5px;
-  letter-spacing: 3px;
-  line-height: 1.3em;
-}
-
-.timelineDotRight {
-  position: absolute;
-  right: -12px;
-  top: 18px;
-  width: 15px;
-  height: 15px;
-  background-color: #0f0101;
-  border: 2px solid #E7671E;
-  z-index: 100;
-  border-radius: 50%;
-}
-
-.timelineItem1 {  position: absolute;  top: 0px; left: 0px; width: 400px;}
-.timelineItem2 {  position: absolute;  top: 100px; left: 0px; width: 400px}
-.timelineItem3 {  position: absolute;  top: 250px; right: 0px; width: 400px}
-.timelineItem4 {  position: absolute;  top: 400px; left: 0px; width: 400px}
-.timelineItem5 {  position: absolute;  top: 550px; right: 0px; width: 400px}
-.timelineItem6 {  position: absolute;  top: 700px; left: 0px; width: 400px}
-.timelineItem7 {  position: absolute;  top: 850px; right: 0px; width: 400px}
-.timelineItem8 {  position: absolute;  top: 1000px; left: 0px; width: 400px}
-.timelineItem9 {  position: absolute;  top: 1150px; right: 0px; width: 400px}
-.timelineItem10 { position: absolute;  top: 1300px; left: 0px; width: 400px}
-.timelineItem11 { position: absolute; top: 1450px; right: 0px; width: 400px}
-
-.timelineMobileItem1 {position: absolute;  top: -20px; left: 0px; width: 400px}
-.timelineMobileItem2 {position: absolute;  top: 100px; left: 0px; width: 400px}
-.timelineMobileItem3 {position: absolute;  top: 200px; left: 0px; width: 400px}
-.timelineMobileItem4 {position: absolute;  top: 300px; left: 0px; width: 400px}
-.timelineMobileItem5 {position: absolute;  top: 440px; left: 0px; width: 400px}
-.timelineMobileItem6 {position: absolute;  top: 560px; left: 0px; width: 400px}
-.timelineMobileItem7 {position: absolute;  top: 710px; left: 0px; width: 400px}
-.timelineMobileItem8 {position: absolute;  top: 820px; left: 0px; width: 400px}
-.timelineMobileItem9 {position: absolute;  top: 940px; left: 0px; width: 400px}
-.timelineMobileItem10 {position: absolute;  top: 1100px; left: 0px; width: 400px}
-.timelineMobileItem11 {position: absolute;  top: 1200px; left: 0px; width: 400px}
 
 
 
