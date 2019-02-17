@@ -365,7 +365,7 @@ a > img:hover {
 
 .disclaimer {
   font-size: 1em;
-  letter-spacing: 3px;
+  letter-spacing: 5px;
   font-family: 'Dual300';
   text-align: left;
   line-height: 1.5em;
@@ -377,7 +377,7 @@ a > img:hover {
 
 .credit {
   font-size: 0.8em;
-  letter-spacing: 3px;
+  letter-spacing: 5px;
   font-family: 'Dual300';
   margin-top: 30px;
   text-align: left;
