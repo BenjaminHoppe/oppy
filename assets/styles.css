@@ -419,7 +419,7 @@ a > img:hover {
 }
 
 .heroContent > h2 {
-  font-size: 1.1em;
+  font-size: 1em;
   letter-spacing: 3px;
 }
 
@@ -627,7 +627,7 @@ footer {
   }
 
   .heroContent > h2 {
-    font-size: 1em;
+    font-size: 0.9em;
   }
 
 
