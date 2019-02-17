@@ -3,6 +3,10 @@ a {
   text-decoration: none;
 }
 
+p {
+
+}
+
 p > a {
   text-decoration: none;
   color: #E7671E;
